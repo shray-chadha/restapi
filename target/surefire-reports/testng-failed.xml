@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.shray.automation.restapi.tests.POSTRestTest">
+        <methods>
+          <include name="PostRestTestWithHeaders"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.shray.automation.restapi.tests.POSTRestTest -->
+      <class name="com.shray.automation.restapi.tests.GETRestTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.shray.automation.restapi.tests.GETRestTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
